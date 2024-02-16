@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+  Â  --rf-brand: #fb8d19;
+  Â  --rf-brand-rgb: 248, 54, 145;
+  Â  --rf-dark: #212237;
+  Â  --rf-body: #989898;
+  Â  --f-main: "Raleway", sans-serif;
+  Â  --transition: all .6s cubic-bezier(.165, .84, .44, 1);
+  Â  --shadow: 0px, 15px, 30px, rgba(0,0,0,0.1);
+}
+
+body {
+  background:;
+  font-family: var(--f-main);
+  color: var( --rf-body);
+  line-height: 1.8;
+}
+
+h1, .h1 h2, .h2 h3, .h3 h4 .h4 h5, .h5 h6, .h6 {
+  font-weight: 700;
+  color: var(--rf-dark);
+  font-family: var(--f-main);
+}
+
+.text-brand {
+  color: #fb8d19;
+}
+
+.navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#home {
+  background-image: url('');
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-brand {
+  background-color: #fb8d19;
+}
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-title {
+  max-width: 550px;
+  margin: 0 auto 60px auto;
+}
+
+.section-title .line {
+  width: 60px;
+  height: 2px;
+  background-color: #fb8d19;
+  display: inline-block;
+}
+
+.visimisi {
+  color: #fb8d19;
+  font-family: var(--f-main);
+}
+
+.misi {
+  text-align: right;
+  list-style-type: upper-roman;
+}
+
+.struktur-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #fb8d19;
+  color: white;
+  font-size: 27px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: 27px;
+}
+
+.lainya {
+  width: 50px;
+  height: 50px;
+  background-color: #fb8d19;
+  color: white;
+  font-size: 27px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: 27px;
+}
+
+.running-text {
+  color: #212237;
+  font-family: var(--f-main);
+  font-size: 25px;
+}
